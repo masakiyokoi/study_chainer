@@ -130,3 +130,7 @@ def main():
                 test_iter.reset()
                 break
     print('test_accuracy:{:.04f}'.format(np.mean(test_accuracies)))
+
+if __name__ == '__main__':
+    main()
+    
